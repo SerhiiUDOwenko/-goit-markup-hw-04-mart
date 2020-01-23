@@ -1,4 +1,10 @@
-  html {
+
+/*Март:
+1. logo - ссылка
+2. .menu высоту убираем совсем, вместо фиксированной ширины лучше написать минимальную
+3. ссылочки нужно делать блочными
+4. ссылочке во второй секции нужно указать ховер*/
+html {
     box-sizing: border-box;
   }
   * {
@@ -22,18 +28,23 @@
     display: flex;
     justify-content: space-between;
   }
-  .logo::first-letter {
-    color: #1abc9c;
-
+  
+a {
+  text-decoration: none;
 }
-
   .logo {
+   
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 30px;
     text-transform: uppercase;
   }
+  .logo::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+
+}
  
   .menu {
     margin: 0px;
@@ -41,8 +52,7 @@
     padding-bottom: 0px;
     padding-right: 15px;
     padding-left: 15px;
-    width: 465px;   
-    height: 34px;
+    min-width: 465px;   
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -239,6 +249,12 @@ position: relative;
     width: 160px;
     height: 50px;
   }
+  .blog-list a:hover , .blog-list a:focus {
+    background-color: #7fd9c7;
+    cursor: pointer;
+
+  }
+  /*
   .bottom-line {
     border: none;
     background-color: #4ec6ab;
@@ -256,4 +272,5 @@ position: relative;
     width: 135px;
     height: 3px;
   }
+  */
   
