@@ -1,9 +1,4 @@
 
-/*Март:
-1. logo - ссылка
-2. .menu высоту убираем совсем, вместо фиксированной ширины лучше написать минимальную
-3. ссылочки нужно делать блочными
-4. ссылочке во второй секции нужно указать ховер*/
 html {
     box-sizing: border-box;
   }
@@ -252,25 +247,6 @@ position: relative;
   .blog-list a:hover , .blog-list a:focus {
     background-color: #7fd9c7;
     cursor: pointer;
-
   }
-  /*
-  .bottom-line {
-    border: none;
-    background-color: #4ec6ab;
-    width: 165px;
-    height: 7px;
-    margin-top: 0px;
-    margin-bottom: 95px;
-  }
-  
-  .blog-lines {
-    border: none;
-    margin-left: 0px;
-    margin-bottom: 45px;
-    background-color: #4ec6ab;
-    width: 135px;
-    height: 3px;
-  }
-  */
+ 
   
