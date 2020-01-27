@@ -19,14 +19,16 @@ html {
     margin-left: auto;
     margin-right: auto;
   }
+  a {
+  text-decoration: none;}
+
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   
-a {
-  text-decoration: none;
-}
+
   .logo {
    
     margin: 0px;
@@ -42,20 +44,21 @@ a {
 }
  
   .menu {
-    margin: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    margin: 0 ;
     padding-right: 15px;
     padding-left: 15px;
     min-width: 465px;   
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+   
+    
   }
-  .menu li {
+  .menu li  {
+   display: inline-block;
     list-style-type: none;
   }
-  .nav-list a {
+ 
+  .nav-link  {
+    display: block;
+    text-align:center;
     color: #0f0101;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
